@@ -8,7 +8,7 @@ export default function Home() {
     <div className="body-home">
       <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
         <Container>
-          <Navbar.Brand href="/">Tattoo Studio</Navbar.Brand>
+          <Navbar.Brand href="/">GYM 365</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="welcome-container">
         <Container>
-          <h1 className="text-center">TATTOO STUDIO</h1>
+          <h1 className="text-center">PONTE EN FORMA CON NOSOTROS</h1>
      
         </Container>
       </div>
