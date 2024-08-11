@@ -9,7 +9,7 @@ const Galeria = () => {
     <div className="galeria-body">
       <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand as={Link} to="/">Tattoo Studio</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">GYM 365</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -22,30 +22,30 @@ const Galeria = () => {
       </Navbar>
 
       <div className="galeria-content">
-        <h1>Galería de Tatuajes</h1>
+        <h1>Galería de Actividades</h1>
         <Container>
           <Row>
             <Col md={4}>
               <Card className="galeria-card">
-                <Card.Img variant="top" src="./img/realistas.jpeg" />
+                <Card.Img variant="top" src="./img/box.jpg" />
                 <Card.Body>
-                  <Card.Title>Tatuajes Realistas</Card.Title>
+                  <Card.Title>BOXEO</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
             <Col md={4}>
               <Card className="galeria-card">
-                <Card.Img variant="top" src="./img/color.jpeg" />
+                <Card.Img variant="top" src="./img/fit.jpg" />
                 <Card.Body>
-                  <Card.Title>Tatuajes Realistas a Color</Card.Title>
+                  <Card.Title>FITNESS</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
             <Col md={4}>
               <Card className="galeria-card">
-                <Card.Img variant="top" src="./img/acuarela.jpeg" />
+                <Card.Img variant="top" src="./img/spi.jpeg" />
                 <Card.Body>
-                  <Card.Title>Tatuajes en Acuarela</Card.Title>
+                  <Card.Title>SPINNING</Card.Title>
                 </Card.Body>
               </Card>
             </Col>

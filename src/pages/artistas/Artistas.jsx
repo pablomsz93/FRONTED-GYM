@@ -7,19 +7,19 @@ const Artistas = () => {
  
   const artistas = [
     {
-      nombre: 'NIKKO HURTADO',
-      imagen: './img/nico.webp',
-      resena: 'Especialista en tatuajes realistas con más de 10 años de experiencia.',
+      nombre: 'NIKKO ',
+      imagen: './img/mobox.jpeg',
+      resena: 'profesor de boxeo',
     },
     {
-      nombre: 'MIKE RUBENDALL',
-      imagen: './img/mike.webp',
-      resena: 'Apasionado por el tatuaje en acuarela y colores vivos.',
+      nombre: 'MIKE ',
+      imagen: './img/mofit.jpeg',
+      resena: 'Monitor fitness',
     },
     {
       nombre: 'KEITH',
-      imagen: './img/keith.webp',
-      resena: ' Es conocido por su trabajo con Rihanna, Cara Delevingne, Adele, Miley Cyrus, Selena Gomez y Kylie Jenner',
+      imagen: './img/mospi.jpg',
+      resena: ' Monitora spinning',
     },
     
   ];
@@ -35,14 +35,14 @@ const Artistas = () => {
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/register">Register</Nav.Link>
               <Nav.Link as={Link} to="/galeria">Galeria</Nav.Link>
-              <Nav.Link as={Link} to="/artistas">Artistas</Nav.Link>
+              <Nav.Link as={Link} to="/artistas">MONITORES</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
       <div className="artistas-content">
-        <h1>Nuestros Artistas</h1>
+        <h1>Nuestros Monitores</h1>
         <Container>
           <Row>
             {artistas.map((artista, index) => (
